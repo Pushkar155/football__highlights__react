@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css";
 import {NavLink} from "react-router-dom";
 import ved from "./to__bg.mp4";
-import image from "./body__center.png";
+// import image from "./body__center.png";
 import image1 from "./logo12.png";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <img src={image1} alt="" />
       </div>
       <div className="image">
-        <img src={image} alt="" />
+        {/* <img src={image} alt="" /> */}
       </div>
       <div className="center">
         <NavLink className="hatana" to="/contain"><button className="btn-grad">Visit</button></NavLink>

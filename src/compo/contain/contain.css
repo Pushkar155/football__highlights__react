@@ -1,0 +1,27 @@
+.Conta{
+    height: 100Vh;
+    overflow: scroll;
+    width: 100%;
+    background-color: black;
+}
+.conta__navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    /* border-color: 1px solid lightgreen; */
+}
+.conta__navbar>img{
+    height: 10vh;
+    width: 200px;
+    /* margin-left: 20px; */
+}
+.conta__card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 1.5rem; */
+    height: 80vh;
+    width: 100%;
+    padding: 1.5rem;
+    /* box-shadow: 0 0 10px #eee; */
+}

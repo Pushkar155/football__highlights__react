@@ -1,0 +1,71 @@
+.home>video{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+  }
+  .conte{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    gap: 5rem;
+    margin-bottom: 0px;
+  }
+  .nav>img{
+    /* margin-bottom: 60px; */
+    top: 0;
+    height: 80px;
+    width: 240px;
+    margin-right: 60rem;
+    margin-bottom: 50px;
+  }
+  .image>img{
+    width: 20rem;
+    margin-bottom: 40px;
+  
+  }
+  
+  .btn-grad{
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    /* border-radius: 10px; */
+    /* border: 4px solid rgb(142, 255, 104); */
+    border: none;
+    /* background: ; */
+    font-size: 12px;
+    font-style: oblique;
+    text-decoration: none;
+    /* color: white; */
+    font-weight: bold;
+    margin-bottom: 70px;
+  }
+         
+  .btn-grad {
+    background-image: linear-gradient(to right, #8bf376 0%, #00dbde  51%, #fc00ff  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    box-shadow: 0px 0px 20px #00dbde;
+  }
+.hatana{
+  /* text-decoration: none; */
+  text-decoration: none;
+    color: white;
+}

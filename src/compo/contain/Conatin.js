@@ -24,10 +24,10 @@ const Conatin =  () => {
         setData(response.data);
 
       } catch (error) {
-        console.error(error);
+        // console.error(error);
       }
     }
-    console.log(data)
+    // console.log(data)
   
   return (
     <div className='Conta'>

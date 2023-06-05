@@ -32,6 +32,7 @@ const Conatin =  () => {
         // console.error(error);
       }
     }
+    // console.log(data)
   return (
     <div className='Conta'>
         <div className="conta__navbar">
@@ -39,9 +40,14 @@ const Conatin =  () => {
         </div>
         <div className='conta__card'>
           {isLoading && <CardSkeleton className="skeleton" count={12}/>}
-            {data.map((item, index) => (
+            {data.map((item) => {
+              if(item.videos[0].title==="Highlights"){
+                return (
                 <Cards  image={item.thumbnail} team1={item.side1.name} team2={item.side2.name} link={item.url}/>
-            ))}
+                )
+              } 
+                
+          })}
         </div>
     </div>
   )

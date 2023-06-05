@@ -1,7 +1,7 @@
 .home>video{
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position:fixed;
     object-fit: cover;
   }
   .conte{

@@ -1,18 +1,18 @@
 .Conta{
-    height: 100Vh;
+    height: 100vh;
     overflow: scroll;
     width: 100%;
     background-color: black;
 }
 .conta__navbar{
-    height: 10vh;
+    height: 5rem;
     width: 100%;
     background-color: rgb(19, 19, 19);
     /* border-color: 1px solid lightgreen; */
 }
 .conta__navbar>img{
-    height: 10vh;
-    width: 200px;
+    height: 5rem;
+    width: 15rem;
     /* margin-left: 20px; */
 }
 .conta__card{

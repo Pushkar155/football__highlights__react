@@ -1,10 +1,11 @@
 import React from 'react'
 
 import "./card.css";
+import style from './cards.module.css';
 
 const Cards =  ({image,team1,team2,link}) => {
   return (
-    <div className='cards'>
+    <div className= {`cards ${style.newDiv}`}>
       <div className='card'>
         <div className="card__image">
           {/* image 70% w==100% */}
